@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dylan Chiu's | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="site-name">Dylan Chiu's Portfolio</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero home-hero">
+      <div class="hero-text">
+        <p class="eyebrow">Dylan Chiu's Portfolio</p>
+        <h1>Work that shows growth.</h1>
+        <p>
+          A clean portfolio of my academic projects, resume, skills, and reflections.
+        </p>
+        <div class="hero-buttons">
+          <a href="projects.html" class="button primary-button">View Projects</a>
+          <a href="resume.html" class="button secondary-button">View Resume</a>
+        </div>
+      </div>
+
+      <div class="hero-image-card">
+        <img
+          src="images/home-hero.jpeg"
+          alt="Main portfolio visual placeholder"
+          class="hero-main-image"
+        />
+      </div>
+    </section>
+
+    <section class="section feature-showcase">
+      <div class="feature-text">
+        <p class="eyebrow">Portfolio Highlight</p>
+        <h2>Designed to present my best work clearly.</h2>
+        <p>
+          This homepage gives visitors a visual overview of my academic growth,
+          selected projects, leadership, and skills.
+        </p>
+      </div>
+
+      <div class="wide-image-card">
+        <img
+          src="images/home-feature.jpeg"
+          alt="Featured portfolio image placeholder"
+          class="wide-image"
+        />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Overview</p>
+        <h2>What this portfolio includes.</h2>
+      </div>
+
+      <div class="image-card-grid">
+        <article class="image-card">
+          <img
+            src="images/home-academic.jpeg"
+            alt="Academic work placeholder"
+            class="card-image"
+          />
+          <div class="image-card-content">
+            <h3>Academic Growth</h3>
+            <p>
+              Through projects, tests, and teamwork, I have learned a lot throughout my high school career, academically.
+            </p>
+          </div>
+        </article>
+
+        <article class="image-card">
+          <img
+            src="images/home-resume.jpeg"
+            alt="Resume and skills placeholder"
+            class="card-image"
+          />
+          <div class="image-card-content">
+            <h3>Skills & Experience</h3>
+            <p>
+              I have included my resume which shows my skills and workplace experience.
+            </p>
+          </div>
+        </article>
+
+        <article class="image-card">
+          <img
+            src="images/home-projects.png"
+            alt="Project work placeholder"
+            class="card-image"
+          />
+          <div class="image-card-content">
+            <h3>Project Reflection</h3>
+            <p>
+              Two complete projects with objectives, documentation, images, and reflections.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section slider-section">
+      <div class="section-heading centered-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>A visual preview of my work.</h2>
+        <p>
+          Swipe or use the arrows to move through images from my projects,
+          presentations, awards, and academic work.
+        </p>
+      </div>
+
+      <div class="slider-container">
+        <button class="slider-button prev-button" id="prevSlide" aria-label="Previous image">
+          ‹
+        </button>
+
+        <div class="slider-window">
+          <div class="slider-track" id="sliderTrack">
+            <div class="slide">
+              <img src="images/gallery-one.jpeg" alt="Gallery image one placeholder" />
+              <div class="slide-caption">
+                <h3>Kolb House</h3>
+                <p>Part of the museum where I host tours to the public.</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="images/gallery-two.jpeg" alt="Gallery image two placeholder" />
+              <div class="slide-caption">
+                <h3>Dublin Archives</h3>
+                <p>A social media account I created to publicize my work to the public.</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="images/gallery-three.jpeg" alt="Gallery image three placeholder" />
+              <div class="slide-caption">
+                <h3>Soccer</h3>
+                <p>Being on the soccer team at EHS for three years developed my teamwork skills.</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="images/gallery-four.jpeg" alt="Gallery image four placeholder" />
+              <div class="slide-caption">
+                <h3>Cross Country</h3>
+                <p>Cross country allowed me to meet new people and form new connections in my freshmen year.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-button next-button" id="nextSlide" aria-label="Next image">
+          ›
+        </button>
+      </div>
+
+      <div class="slider-dots" id="sliderDots">
+        <button class="dot active" aria-label="Go to slide 1"></button>
+        <button class="dot" aria-label="Go to slide 2"></button>
+        <button class="dot" aria-label="Go to slide 3"></button>
+        <button class="dot" aria-label="Go to slide 4"></button>
+      </div>
+    </section>
+
+    <section class="section highlight-section">
+      <div>
+        <p class="eyebrow">Projects</p>
+        <h2>View my projects over the years.</h2>
+        <p>
+          The projects reveal dedicated time and effort throughout the years. Many projects also required teamwork and cooperation in order to get the products that we were happy with.
+        </p>
+      </div>
+      <a href="projects.html" class="button primary-button">Go to Projects</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Dylan Chiu. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
